@@ -1,6 +1,8 @@
+/*SparkBot*/
+
 const Discord = require('discord.js')
 const client = new Discord.Client()
-client.login("NTM2MTI1ODQxNDI0MjUyOTI5.D11BVA.GJg04STVX66Gw30n4G6daKWBRWk")
+client.login("<token>") /*Token wurde Zensiert*/
 
 
 client.on("ready",() => {
