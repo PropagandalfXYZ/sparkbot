@@ -1,6 +1,6 @@
 const Discord = require('discord.js')
 const client = new Discord.Client()
-client.login("NTM2MTI1ODQxNDI0MjUyOTI5.D1nVIA.VTVPnjABt88XXvgDXiJ4PH_oYOM")
+client.login("") /*Den Token habe ich entfernt ;-)*/
 
 
 client.on("ready",() => {
