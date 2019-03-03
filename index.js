@@ -1,11 +1,12 @@
 const Discord = require('discord.js')
 const client = new Discord.Client()
-client.login("") /*Den Token habe ich entfernt ;-)*/
+client.login("NTM2MTI1ODQxNDI0MjUyOTI5.D11BVA.GJg04STVX66Gw30n4G6daKWBRWk")
 
 
 client.on("ready",() => {
     client.user.setActivity("Coded by Propagandalf",{type:"STREAMING", url: "https://propagandalf.xyz"}).catch(console.error);
 });
+
 
 client.on('message', msg => {
   if (msg.content === '!hilfe') {
@@ -33,8 +34,8 @@ client.on('message', message => {
 });
 client.on('message', msg => {
   if (msg.content === '!author') {
-   msg.reply('Ich wurde von @Propagandalf | coding-treff.de#8586 erschaffen')
+   msg.reply('Ich wurde von <@444793611360534528> erschaffen. Seine Website erreichst du unter https://propagandalf.xyz')
   }
 });
-client._setPresence({ game: { name: 'test', type: 0 } });
+
 
