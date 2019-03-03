@@ -6,7 +6,6 @@ client.login("") /*Den Token habe ich entfernt ;-)*/
 client.on("ready",() => {
     client.user.setActivity("Coded by Propagandalf",{type:"STREAMING", url: "https://propagandalf.xyz"}).catch(console.error);
 });
-bot_secret_token = "NTM2MTI1ODQxNDI0MjUyOTI5.D1nVIA.VTVPnjABt88XXvgDXiJ4PH_oYOM"
 
 client.on('message', msg => {
   if (msg.content === '!hilfe') {
@@ -38,4 +37,4 @@ client.on('message', msg => {
   }
 });
 client._setPresence({ game: { name: 'test', type: 0 } });
-client.login(bot_secret_token)
+
